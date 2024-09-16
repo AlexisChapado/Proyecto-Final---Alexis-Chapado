@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+pids/
+*.pid
+*.seed
+
+# Runtime data
+*.pid
+*.seed
+*.log
+
+# Directory for instrumented lib/ dir by jscoverage/JSCover
+lib-cov/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration
+typings/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# next.js build output
+.next/
+
+# Nuxt.js build / generate output
+.nuxt/
+dist/
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# Build output
+build/
+tmp/
