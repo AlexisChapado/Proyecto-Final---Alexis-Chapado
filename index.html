@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Tareas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Organizador de Tareas</h1>
+    </header>
+    
+    <div class="main-container">
+        <section id="calendar-container">
+            <div id="calendar-header">
+                <button id="prev-month" class="nav-button">«</button>
+                <span id="month-year"></span>
+                <button id="next-month" class="nav-button">»</button>
+            </div>
+            <div id="calendar"></div>
+        </section>
+    </div>
+
+    <div id="task-section">
+        <h2>Tareas</h2>
+        <div id="task-container">
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <div id="task-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Añadir Tarea</h2>
+            <input type="text" id="task-input" placeholder="Descripción de la tarea">
+            <button id="add-task" class="button">Añadir Tarea</button>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+ 
